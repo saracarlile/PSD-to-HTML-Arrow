@@ -1,0 +1,311 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Reset CSS End */
+
+/* Helper Classes */
+
+.alignLeft {
+	float: left;
+}
+
+.alignRight {
+	float: right;
+}
+
+.margin-bottom-10 {
+	margin-bottom: 10px;
+}
+
+.margin-bottom-20 {
+	margin-bottom: 20px;
+}
+
+.margin-bottom-30 {
+	margin-bottom: 30px;
+}
+
+.margin-bottom-40 {
+	margin-bottom: 40px;
+}
+
+strong, b {
+	font-weight: 700;
+}
+
+em, i {
+	font-style: italic;
+}
+
+p, ul li, ol li {
+	font-size: 16px;
+	line-height: 23px;
+	margin-bottom: 20px;
+}
+
+/* End CSS Reset*/
+
+/* General Rules */
+
+@font-face {
+	font-family: 'Raleway-Medium';
+	src: local('Raleway-Medium.otf'),
+	url('Raleway-Medium.otf') format('opentype')
+}
+
+@font-face {
+	font-family: 'Raleway-Bold';
+	src: local('Raleway-Bold.otf'),
+	url('Raleway-Bold.otf') format('opentype')
+}
+
+@font-face {
+	font-family: 'Raleway-Regular';
+	src: local('Raleway-Regular.otf'),
+	url('Raleway-Regular.otf') format('opentype')
+}
+
+
+@font-face {
+	font-family: 'Raleway-Thin';
+	src: local('Raleway-Thin.otf'),
+	url('Raleway-Thin.otf') format('opentype')
+}
+
+@font-face {
+	font-family: 'Raleway-Heavy';
+	src: local('Raleway-Heavy.otf'),
+	url('Raleway-Heavy.otf') format('opentype')
+}
+
+@font-face {
+	font-family: 'Raleway-Light';
+	src: local('Raleway-Light.otf'),
+	url('Raleway-Light.otf') format('opentype')
+}
+
+* {
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.container  {
+	max-width: 1180px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    padding: 30px 15px;
+}
+
+body {
+	font-family: 'Raleway-Regular', sans-serif;
+}
+
+.alignLeft {
+	float: left;
+}
+
+.alignRight {
+	float: right;
+}
+
+
+/* End General Styles*/
+
+/* Hero Styles */
+
+
+#hero {
+	background-image: url('../img/hero-01.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.navbar {
+	display: block;
+}
+.nav li {
+	display: inline-block;
+	font-family: 'Raleway-Thin';
+	font-size: 18px;
+	font-weight: 700;
+	padding-top: 13px;
+}
+
+.nav li a {
+	color: white;
+	text-decoration: none;
+	margin-left: 25px;
+	padding-bottom: 3px;
+	border-bottom: 4px solid white transparent;
+	transition: border-bottom 0.2s, color 0.2s;
+}
+
+.nav li a:hover {
+	border-bottom: 4px solid white;
+	transition: border-bottom 0.2s, color 0.2s;
+}
+
+.cta {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+
+.logo-arrow {
+	margin: 240px 0px 20px 0px;
+	display: inline-block;
+}
+
+.cta p {
+	font-size: 18px;
+	line-height: 25px;
+	color: white;
+}
+
+.know-more-btn {
+	display: inline-block;
+	border: 2px solid white;
+	border-radius: 5px;
+	color: white;
+	hover: pointer;
+	background: transparent;
+	padding: 10px 30px;
+	text-decoration: none;
+}
+
+.know-more-btn:hover {
+	color: #354e67;
+	border: 2px solid #354e67;
+	transition: border 0.5s, color 0.5s;
+}
+
+.know-more-btn:active {
+	
+	background: rgba(255, 255, 255, 0.5);
+	transition: border 0.2s, color 0.2s;
+}
+
+
+
+#scroll-text {
+	font-family: 'Raleway-Light';
+	text-transform: uppercase;
+	margin-top: -20px;
+	font-size: 14px;
+	font-weight: 200;
+	color: white;
+}
+
+.triangle-container {
+	background: url('../img/Sep-bot.png');
+	background-size: cover;
+	background-position: bottom;
+	height: 190px;
+	text-align: center;
+	margin-top: 200px;
+	padding-top: 60px;
+}
+
+
+/* Our Services Section */
+
+#services .container {
+	text-align: center;
+	padding: 50px 20px 40px 20px;
+}
+
+#services .container h2 {
+	font-size: 22px;
+	line-height: 25px;
+	color: #2980b9;
+	margin-bottom: 80px;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-family: 'Raleway-Bold';
+}
+
+
+/* css for border-bottom less than full width from https://www.steckinsights.com/shorten-length-border-bottom-pure-css/ */
+
+#services .container h2:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 30px; /* Change this to whatever width you want. */
+    padding-top: 10px; /* This creates some space between the element and the border. */
+    border-bottom: 5px solid #2980b9; /* This creates the border. Replace black with whatever color you want. */
+}
+
+.col-4-app {
+	width: 33.33%;
+	float: left;
+	padding: 0px 110px;
+}
+
+.col-4-app p {
+	font-size: 12px;
+	line-height: 16px;
+	color: #646464;
+}
+
+.col-4-app img {
+	margin-bottom: 16px;
+}
+
+.col-4-app h3 {
+	font-size: 18px;
+	color: #616161;
+	margin-bottom: 20px;
+	font-weight: 800;
+	font-family: 'Raleway-Bold';
+}
