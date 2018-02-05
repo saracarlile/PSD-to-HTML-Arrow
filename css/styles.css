@@ -326,7 +326,7 @@ body {
 }
 
 .downward-triangle-container {
-	background: url('../img/Sep-top.png');
+	background: url('../img/downward-triangle.png');
 	background-size: cover;
 	background-position: bottom;
 	height: 330px;
