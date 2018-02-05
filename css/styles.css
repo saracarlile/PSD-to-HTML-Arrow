@@ -168,6 +168,7 @@ body {
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
+	position: relative;
 }
 
 .navbar {
@@ -247,10 +248,10 @@ body {
 }
 
 .triangle-container {
-	background: url('../img/Sep-bot.png');
+	background: url('../img/triangles-up.png');
 	background-size: cover;
 	background-position: bottom;
-	height: 190px;
+	height: 207px;
 	text-align: center;
 	margin-top: 200px;
 	padding-top: 60px;
@@ -329,7 +330,7 @@ body {
 	background: url('../img/downward-triangle.png');
 	background-size: cover;
 	background-position: bottom;
-	height: 330px;
+	height: 211px;
 	text-align: center;
 	padding-top: 60px;
 
