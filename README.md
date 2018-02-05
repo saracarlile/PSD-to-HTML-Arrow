@@ -1,7 +1,7 @@
 ## Synopsis
 
 This project is used for practice converting a Photoshop PSD file to a HTML webpage.
-Using the "Arrow" PSD.
+The basis for the HTML file is the "Arrow" PSD and it's assets.
 
 
 ## More Info
@@ -13,7 +13,7 @@ by Ahmed Yehia Kadry
 
 
 ## View Project
-The HTML is hosted view Github Pages, which you can view using the link below.
+The HTML is hosted view Github Pages, which you can view using this link:
 [View live PSD to HTML](https://saracarlile.github.io/PSD-to-HTML-Arrow/)
 
 ## Technologies

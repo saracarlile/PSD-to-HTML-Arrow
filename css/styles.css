@@ -309,3 +309,60 @@ body {
 	font-weight: 800;
 	font-family: 'Raleway-Bold';
 }
+
+/* End Services */
+
+/* Start Portfolio Section */
+
+#portfolio {
+	background-image: url('../img/portfolio-bg.png');
+	background-size: cover;
+	background-position: center;
+}
+
+#portfolio .container {
+	text-align: center;
+	padding: 50px 20px 40px 20px;
+}
+
+.downward-triangle-container {
+	background: url('../img/Sep-top.png');
+	background-size: cover;
+	background-position: bottom;
+	height: 330px;
+	text-align: center;
+	padding-top: 60px;
+
+}
+
+.downward-triangle-container h2 {
+	font-size: 22px;
+	line-height: 25px;
+	color: #ffffff;
+	margin-bottom: 80px;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-family: 'Raleway-Bold';
+}
+
+#portfolio .container h2 {
+	font-size: 22px;
+	line-height: 25px;
+	color: #ffffff;
+	margin-bottom: 80px;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-family: 'Raleway-Bold';
+}
+
+
+/* css for border-bottom less than full width from https://www.steckinsights.com/shorten-length-border-bottom-pure-css/ */
+
+#portfolio .container h2:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 30px; /* Change this to whatever width you want. */
+    padding-top: 10px; /* This creates some space between the element and the border. */
+    border-bottom: 5px solid #ffffff; /* This creates the border. Replace black with whatever color you want. */
+}
