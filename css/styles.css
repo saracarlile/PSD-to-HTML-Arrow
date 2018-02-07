@@ -142,7 +142,7 @@ p, ul li, ol li {
     margin: 0 auto;
     position: relative;
     overflow: hidden;
-    padding: 30px 15px;
+    padding: 30px 20px;
 }
 
 body {
@@ -214,14 +214,18 @@ body {
 }
 
 .know-more-btn {
-	display: inline-block;
-	border: 2px solid white;
-	border-radius: 5px;
-	color: white;
-	hover: pointer;
-	background: transparent;
-	padding: 10px 30px;
-	text-decoration: none;
+	width: 155px;
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    background: transparent;
+    padding: 5px 0px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 10px;
 }
 
 .know-more-btn:hover {
@@ -254,7 +258,9 @@ body {
 	height: 207px;
 	text-align: center;
 	margin-top: 200px;
-	padding-top: 60px;
+	padding-top: 85px;
+	position: relative;
+	top: 1px;
 }
 
 
@@ -262,12 +268,12 @@ body {
 
 #services .container {
 	text-align: center;
-	padding: 50px 20px 40px 20px;
+	padding: 60px 20px 0px 20px;
 }
 
 #services .container h2 {
-	font-size: 22px;
-	line-height: 25px;
+	font-size: 24px;
+	line-height: 29px;
 	color: #2980b9;
 	margin-bottom: 80px;
 	text-transform: uppercase;
@@ -316,14 +322,15 @@ body {
 /* Start Portfolio Section */
 
 #portfolio {
-	background-image: url('../img/portfolio-bg.png');
+/*	background-image: linear-gradient(rgba(33, 33, 33, 0.8), rgba(33, 33, 33, 0.8)), url('../img/portfolio-bg-less-op.png');*/
+    background-image: url('../img/portfolio-bg-less-op.png');
 	background-size: cover;
 	background-position: center;
 }
 
 #portfolio .container {
 	text-align: center;
-	padding: 50px 20px 40px 20px;
+	padding: 60px 20px 40px 20px;
 }
 
 .downward-triangle-container {
@@ -333,24 +340,17 @@ body {
 	height: 211px;
 	text-align: center;
 	padding-top: 60px;
+	position: relative;
 
 }
 
-.downward-triangle-container h2 {
-	font-size: 22px;
-	line-height: 25px;
-	color: #ffffff;
-	margin-bottom: 80px;
-	text-transform: uppercase;
-	font-weight: 800;
-	font-family: 'Raleway-Bold';
-}
+
 
 #portfolio .container h2 {
-	font-size: 22px;
-	line-height: 25px;
+	font-size: 26px;
+	line-height: 31px;
 	color: #ffffff;
-	margin-bottom: 80px;
+	margin-bottom: 65px;
 	text-transform: uppercase;
 	font-weight: 800;
 	font-family: 'Raleway-Bold';
@@ -367,3 +367,129 @@ body {
     padding-top: 10px; /* This creates some space between the element and the border. */
     border-bottom: 5px solid #ffffff; /* This creates the border. Replace black with whatever color you want. */
 }
+ 
+.iphone-design {
+	width: 100%;
+	display: flex;
+	align-content: flex-start;
+	flex-wrap: wrap;
+}
+
+.project-1 {
+	background: url('../img/project-1.png');
+	width: 375px;
+	height: 200px;
+	background-size: cover;
+	background-position: center;
+}
+.project-2 {
+	background: url('../img/project-2.png');
+	width: 375px;
+	height: 200px;
+	background-size: cover;
+	background-position: center;
+	padding-top: 50px;
+	text-align: center;
+}
+.project-3 {
+	background: url('../img/project-3.png');
+	width: 375px;
+	height: 200px;
+	background-size: cover;
+	background-position: center;
+}
+.project-4 {
+	background: url('../img/project-4.png');
+	width: 375px;
+	height: 200px;
+	background-size: cover;
+	background-position: center;
+}
+.project-5 {
+	background: url('../img/project-5.png');
+	width: 375px;
+	height: 200px;
+	background-size: cover;
+	background-position: center;
+}
+.project-6 {
+	background: url('../img/project-6.png');
+	width: 375px;
+	height: 200px;
+	background-size: cover;
+	background-position: center;
+}
+
+.iphone-design h3 {
+	font-size: 25px;
+	color: white;
+	font-family: 'Raleway-Medium';
+}
+
+.iphone-circle-btn {
+	height: 60px;
+	display: inline-block;
+	border-radius: 50%;
+	background-color: #fff;
+	font-size: 50px;
+	padding-top: 5px;
+	margin-top: 40px;
+	width: 60px;
+	text-decoration: none;
+	color: #000;
+}
+
+.triangle-container-second {
+	background: url('../img/triangles-up.png');
+	background-size: cover;
+	background-position: bottom;
+	height: 207px;
+	text-align: center;
+	padding-top: 70px;
+	position: relative;
+	top: 15px;
+}
+
+#our-team .container {
+	text-align: center;
+}
+
+#our-team .container h2 {
+    font-size: 24px;
+    line-height: 29px;
+    color: #2980b9;
+    margin-bottom: 34px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: 'Raleway-Bold';
+}
+
+/* css for border-bottom less than full width from https://www.steckinsights.com/shorten-length-border-bottom-pure-css/ */
+
+#our-team .container h2:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 30px; /* Change this to whatever width you want. */
+    padding-top: 10px; /* This creates some space between the element and the border. */
+    border-bottom: 5px solid  #2980b9; /* This creates the border. Replace black with whatever color you want. */
+}
+
+.our-team-text {
+	font-size: 12px;
+    line-height: 16px;
+	color: #2980b9;
+	max-width: 340px;
+	display: inline-block;
+	margin-bottom: 100px;
+}
+
+.team {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	position: relative;
+}
+
