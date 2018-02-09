@@ -322,7 +322,6 @@ body {
 /* Start Portfolio Section */
 
 #portfolio {
-/*	background-image: linear-gradient(rgba(33, 33, 33, 0.8), rgba(33, 33, 33, 0.8)), url('../img/portfolio-bg-less-op.png');*/
     background-image: url('../img/portfolio-bg-less-op.png');
 	background-size: cover;
 	background-position: center;
@@ -442,7 +441,7 @@ body {
 }
 
 .triangle-container-second {
-	background: url('../img/triangles-up.png');
+	background: url('../img/triangles-up-test.png');
 	background-size: cover;
 	background-position: bottom;
 	height: 207px;
@@ -464,7 +463,7 @@ body {
     font-size: 24px;
     line-height: 29px;
     color: #2980b9;
-    margin-bottom: 34px;
+    margin-bottom: 24px;
     text-transform: uppercase;
     font-weight: 800;
     font-family: 'Raleway-Bold';
@@ -511,14 +510,109 @@ body {
 /* Our Offices */
 
 #offices {
-	
-		background-image: url('../img/offices-bg.png');
-		background-size: cover;
-		background-position: center;
-		position: relative;
-		top: -295px;
-		z-index: 1;
-		height: 1288px;
-		width: 100%;
+	background-image: url('../img/offices-bg.png');
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	top: -295px;
+	z-index: 1;
+	height: 1288px;
+	width: 100%;
 	}
 	
+.downward-triangle-container-two {
+	background: url('../img/downward-triangle.png');
+	background-size: cover;
+	background-position: bottom;
+	height: 211px;
+	position: relative;
+	top: 145px;
+}
+
+#offices .container {
+	text-align: center;
+	position: relative;
+	top: 160px;
+}
+
+
+#offices .container h2 {
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffffff;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: 'Raleway-Bold';
+}
+
+/* css for border-bottom less than full width from https://www.steckinsights.com/shorten-length-border-bottom-pure-css/ */
+
+#offices .container h2:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 30px; /* Change this to whatever width you want. */
+    padding-top: 10px; /* This creates some space between the element and the border. */
+    border-bottom: 5px solid  #ffffff; /* This creates the border. Replace black with whatever color you want. */
+}
+
+.our-offices-text {
+	font-size: 12px;
+    line-height: 16px;
+	color: #ffffff;
+	max-width: 340px;
+	display: inline-block;
+	margin-bottom: 100px;
+}
+
+.atlas {
+	background: url('../img/world-atlas.png');
+	background-position: center;
+	position: relative;
+	width: 100%;
+	height: 400px;
+}
+
+
+#usa {
+	background: url('../img/usa.png')  no-repeat;
+	position: relative;
+	top: 150px;
+    right: 120px;
+	width: 59px;
+	height: 30px;
+	display: inline-block;
+}
+
+#france {
+	background: url('../img/france.png') no-repeat;
+	position: relative;
+	top: 125px;
+    left: 30px;
+	width: 87px;
+	height: 30px;
+	display: inline-block
+}
+
+#egypt {
+	background: url('../img/egypt.png') no-repeat;
+	position: relative;
+	top: 175px;
+    right: 20px;
+	width: 76px;
+	height: 30px;
+	display: inline-block
+}
+
+.triangle-container-third {
+	background: url('../img/triangles-up-test.png');
+	background-size: cover;
+	background-position: bottom;
+	height: 207px;
+	text-align: center;
+	margin-top: 50px;
+	padding-top: 85px;
+	position: relative;
+	bottom: 45px;
+}
