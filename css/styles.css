@@ -203,7 +203,7 @@ body {
 }
 
 .logo-arrow {
-	margin: 240px 0px 20px 0px;
+	margin: 240px 0px 0px 0px;
 	display: inline-block;
 }
 
@@ -257,7 +257,7 @@ body {
 	background-position: bottom;
 	height: 207px;
 	text-align: center;
-	margin-top: 200px;
+	margin-top: 50px;
 	padding-top: 85px;
 	position: relative;
 	top: 1px;
@@ -326,6 +326,8 @@ body {
     background-image: url('../img/portfolio-bg-less-op.png');
 	background-size: cover;
 	background-position: center;
+	position: relative;
+	z-index: 1;
 }
 
 #portfolio .container {
@@ -341,7 +343,7 @@ body {
 	text-align: center;
 	padding-top: 60px;
 	position: relative;
-
+	top: -1px;
 }
 
 
@@ -452,7 +454,11 @@ body {
 
 #our-team .container {
 	text-align: center;
+    position: relative;
+	z-index: 500;
 }
+
+
 
 #our-team .container h2 {
     font-size: 24px;
@@ -493,3 +499,26 @@ body {
 	position: relative;
 }
 
+.white-strip {
+	height: 124px;
+	width: 100%;
+	position: relative;
+	top: -250px;
+	background-color: #ffffff;
+	z-index: 300;
+}
+
+/* Our Offices */
+
+#offices {
+	
+		background-image: url('../img/offices-bg.png');
+		background-size: cover;
+		background-position: center;
+		position: relative;
+		top: -295px;
+		z-index: 1;
+		height: 1288px;
+		width: 100%;
+	}
+	
