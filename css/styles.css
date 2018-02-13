@@ -616,3 +616,62 @@ body {
 	position: relative;
 	bottom: 45px;
 }
+
+.container-position {
+	position: relative;
+	bottom: 45px;
+	max-width: 1180px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+	padding: 30px 20px;
+	text-align: center;
+}
+
+.container-position h2 {
+	font-size: 24px;
+    line-height: 29px;
+    color: #2980b9;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: 'Raleway-Bold';
+}
+
+/* css for border-bottom less than full width from https://www.steckinsights.com/shorten-length-border-bottom-pure-css/ */
+
+.container-position h2:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 30px; /* Change this to whatever width you want. */
+    padding-top: 10px; /* This creates some space between the element and the border. */
+    border-bottom: 5px solid  #2980b9; /* This creates the border. Replace black with whatever color you want. */
+}
+
+.flex-container-clients {
+	display: flex;
+	justify-content: space-between;
+	align-content: flex-start;
+}
+
+
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #76a5d3;
+    background-image: linear-gradient(to right, #76a5d3, #76a5d3, #76a5d3);
+}
+
+.triangle-logo:after{
+	content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: inline-block; /* This will put the pseudo element on its own line. */
+    width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 18px 15px 0 15px;
+	border-color: #76a5d3 transparent transparent transparent;
+	position: relative;
+	top: 30px;
+}
