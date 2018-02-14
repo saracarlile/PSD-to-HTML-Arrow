@@ -487,6 +487,7 @@ body {
 	max-width: 340px;
 	display: inline-block;
 	margin-bottom: 100px;
+	font-family: 'Raleway-Thin';
 }
 
 .team {
@@ -564,6 +565,7 @@ body {
 	max-width: 340px;
 	display: inline-block;
 	margin-bottom: 100px;
+	font-family: 'Raleway-Thin';
 }
 
 .atlas {
@@ -695,3 +697,77 @@ hr.style-one {
 	font-weight: 200;
 }
 
+/* Contact Us Footer */
+
+#contact-us {
+	background-image: url('../img/contact-bg.png');
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	height: 770px;
+	width: 100%;
+	top: 30px;
+}
+
+.downward-triangle-container-three {
+	background: url('../img/downward-triangle.png');
+	background-size: cover;
+	background-position: center;
+	height: 211px;
+	position: relative;
+	top: 18px;
+}
+
+
+#contact-us .container {
+	text-align: center;
+	position: relative;
+	top: 55px;
+}
+
+
+#contact-us .container h2 {
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffffff;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: 'Raleway-Bold';
+}
+
+/* css for border-bottom less than full width from https://www.steckinsights.com/shorten-length-border-bottom-pure-css/ */
+
+#contact-us .container h2:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 30px; /* Change this to whatever width you want. */
+    padding-top: 10px; /* This creates some space between the element and the border. */
+    border-bottom: 5px solid  #ffffff; /* This creates the border. Replace black with whatever color you want. */
+}
+
+.contact-us-text {
+	font-family: 'Raleway-Thin';
+	font-size: 12px;
+    line-height: 16px;
+	color: #ffffff;
+	max-width: 340px;
+	display: inline-block;
+	margin-bottom: 50px;
+}
+
+.contact-us-flex-container {
+	display: flex;
+	justify-content: space-between;
+	align-content: flex-start;
+}
+
+.bottom-text {
+	text-align: center;
+	color: white;
+	margin-top: 80px;
+	font-family: 'Raleway-Thin';
+	font-size: 12px;
+    line-height: 16px;
+}
