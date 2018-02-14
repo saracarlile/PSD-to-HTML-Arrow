@@ -130,6 +130,12 @@ p, ul li, ol li {
 	url('Raleway-Light.otf') format('opentype')
 }
 
+@font-face {
+	font-family: 'Raleway-ExtraLight';
+	src: local('Raleway-ExtraLight.otf'),
+	url('Raleway-ExtraLight.otf') format('opentype')
+}
+
 * {
 	box-sizing: border-box;
 	-webkit-font-smoothing: antialiased;
@@ -722,7 +728,7 @@ hr.style-one {
 #contact-us .container {
 	text-align: center;
 	position: relative;
-	top: 55px;
+	top: 40px;
 }
 
 
@@ -750,11 +756,12 @@ hr.style-one {
 .contact-us-text {
 	font-family: 'Raleway-Thin';
 	font-size: 12px;
-    line-height: 16px;
-	color: #ffffff;
+    line-height: 17px;
+	color: #fafcfe;
 	max-width: 340px;
 	display: inline-block;
-	margin-bottom: 50px;
+	margin-bottom: 60px;
+	letter-spacing: .5px;
 }
 
 .contact-us-flex-container {
@@ -766,8 +773,10 @@ hr.style-one {
 .bottom-text {
 	text-align: center;
 	color: white;
-	margin-top: 80px;
+	margin-top: 85px;
 	font-family: 'Raleway-Thin';
-	font-size: 12px;
-    line-height: 16px;
+	font-size: 14px;
+	line-height: 14px;
+	letter-spacing: .5px;
+	color: #fafcfe;
 }
