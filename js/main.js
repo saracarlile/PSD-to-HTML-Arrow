@@ -61,6 +61,13 @@ $(document).ready(function () {
         }
     });
 
+    $('.iphone-design div').on('click', function(e) {  
         
+        $( ".iphone-design div" ).each(function( index ) {
+             $( this ).children().removeClass('project-info-show').addClass('project-info-hide');
+          });
+
+        $(this).children().removeClass('project-info-hide').addClass('project-info-show');  //project info btn when clicked
+    });  
 
 });

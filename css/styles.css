@@ -807,3 +807,12 @@ hr.style-one {
 .js-wp-3.animated {
 	opacity: 1;
 }
+
+.project-info-hide {
+	display: none;
+}
+
+.project-info-show {
+	display: block;
+}
+
