@@ -383,48 +383,72 @@ body {
 }
 
 .project-1 {
-	background: url('../img/project-1.png');
+	background-image: url('../img/project-1.png');
 	width: 375px;
 	height: 200px;
 	background-size: cover;
 	background-position: center;
+	padding: 20px;
+	position: relative;
+	z-index: 1;
+	cursor: pointer;
 }
 .project-2 {
-	background: url('../img/project-2.png');
+	background-image: url('../img/project-2.png');
 	width: 375px;
 	height: 200px;
 	background-size: cover;
 	background-position: center;
 	padding-top: 50px;
 	text-align: center;
+	padding: 20px;
+	position: relative;
+	z-index: 1;
+	cursor: pointer;
 }
 .project-3 {
-	background: url('../img/project-3.png');
+	background-image: url('../img/project-3.png');
 	width: 375px;
 	height: 200px;
 	background-size: cover;
 	background-position: center;
+	padding: 20px;
+	position: relative;
+	z-index: 1;
+	cursor: pointer;
 }
 .project-4 {
-	background: url('../img/project-4.png');
+	background-image: url('../img/project-4.png');
 	width: 375px;
 	height: 200px;
 	background-size: cover;
 	background-position: center;
+	padding: 20px;
+	position: relative;
+	z-index: 1;
+	cursor: pointer;
 }
 .project-5 {
-	background: url('../img/project-5.png');
+	background-image: url('../img/project-5.png');
 	width: 375px;
 	height: 200px;
 	background-size: cover;
 	background-position: center;
+	padding: 20px;
+	position: relative;
+	z-index: 1;
+	cursor: pointer;
 }
 .project-6 {
-	background: url('../img/project-6.png');
+	background-image: url('../img/project-6.png');
 	width: 375px;
 	height: 200px;
 	background-size: cover;
 	background-position: center;
+	padding: 20px;
+	position: relative;
+	z-index: 1;
+	cursor: pointer;
 }
 
 .iphone-design h3 {
@@ -440,10 +464,10 @@ body {
 	background-color: #fff;
 	font-size: 50px;
 	padding-top: 5px;
-	margin-top: 40px;
 	width: 60px;
 	text-decoration: none;
 	color: #000;
+	margin: 20px auto 0px auto;
 }
 
 .triangle-container-second {
@@ -814,5 +838,41 @@ hr.style-one {
 
 .project-info-show {
 	display: block;
+	margin-bottom: 20px;
+/*	background: linear-gradient(rgba(41,128,185, 0.6));*/
+	position: relative;
+	z-index: 20;
+}
+
+.overlay {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+	background-color: linear-gradient(rgba(41,128,185, 0.6));
+	overflow: hidden;
+	width: 375px;
+	height: 200px;
+	padding: 60px 20px 20px 20px;
+	z-index: 10;
+	background: -moz-linear-gradient(top, rgba(41,128,185, 0.6), rgba(41,128,185, 0.6),rgba(41,128,185, 0.6), rgba(41,128,185, 0.6)); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(41,128,185, 0.6), rgba(41,128,185, 0.6),rgba(41,128,185, 0.6), rgba(41,128,185, 0.6)); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(41,128,185, 0.6), rgba(41,128,185, 0.6),rgba(41,128,185, 0.6), rgba(41,128,185, 0.6)); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+  
+
+/*   MEDIA QUERIES  */
+
+
+@media only screen and (max-width: 1165px) {
+
+	.iphone-design {
+		justify-content: space-around;
+	}
+
+	.iphone-design div {
+		margin-bottom: 20px;
+	}
 }
 
