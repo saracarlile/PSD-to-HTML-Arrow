@@ -990,7 +990,11 @@ hr.style-one {
 
 }
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 780px) {	
+
+	.team {
+		width: 580px;
+	}
 
 	#dropbox  {
 		display: none;
@@ -1044,4 +1048,51 @@ hr.style-one {
 	}
 
 
+}
+
+@media only screen and (max-width: 580px) { 
+
+	.atlas {
+		width: 500px;
+	}
+	
+	.col-4-app {
+		display: block;
+		width: 100%;
+		margin-bottom: 5px;
+	}
+
+	.team {
+		width: 400px;
+	}
+
+	.review-text {
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+}
+
+@media only screen and (max-width: 480px) { 
+	#groupon {
+		display: none;
+	}
+
+	.review-text {
+		font-size: 14px;
+		line-height: 18px;
+	}
+
+	.review-person{
+		font-size: 12px;
+		line-height: 16px;
+	}
+
+	.contact-us-flex-container {
+		flex-wrap: wrap;
+	}
+
+	.contact-us-flex-container img {
+		margin-bottom: 20px;
+	}
 }
