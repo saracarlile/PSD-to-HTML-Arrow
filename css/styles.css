@@ -794,6 +794,10 @@ hr.style-one {
 	align-content: flex-start;
 }
 
+.contact-us-flex-container img {
+	cursor: pointer;
+}
+
 .bottom-text {
 	text-align: center;
 	color: white;
@@ -809,27 +813,32 @@ hr.style-one {
 
 .js-wp-1 {
 	opacity: 0;
+	animation-delay: .5s;
 }
 
 .js-wp-1.animated {
 	opacity: 1;
+	animation-delay: .5s;
 }
 
 .js-wp-2 {
 	opacity: 0;
+	animation-delay: .5s;
 }
 
 .js-wp-2.animated {
 	opacity: 1;
+	animation-delay: .5s;
 }
 
 .js-wp-3 {
 	opacity: 0;
-	animation-delay: 2s;
+	animation-delay: 1s;
 }
 
 .js-wp-3.animated {
 	opacity: 1;
+	animation-delay: 1s;
 }
 
 .project-info-hide {
@@ -874,5 +883,25 @@ hr.style-one {
 	.iphone-design div {
 		margin-bottom: 20px;
 	}
+
+	.col-4-app {
+		padding: 0px 50px;
+	}
+	
+	.team {
+		width: 800px;
+		justify-content: space-around;
+		align-items: center;
+		margin: auto;
+	}
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+	#google, #booking {
+		display: none;
+	}
+
 }
 
