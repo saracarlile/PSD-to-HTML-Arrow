@@ -69,9 +69,6 @@ $(document).ready(function () {
           });
 
         $(this).children(".overlay").removeClass('project-info-hide').addClass('project-info-show');  //project info btn when clicked
-
-  
-    
     });  
 
 });
