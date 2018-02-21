@@ -71,4 +71,14 @@ $(document).ready(function () {
         $(this).children(".overlay").removeClass('project-info-hide').addClass('project-info-show');  //project info btn when clicked
     });  
 
+    $('.team .top-div-team').on('click', function(e) {  
+        
+        $( ".team .top-div-team" ).each(function( index ) {
+             $( this ).find( ".overlay-team" ).removeClass('team-info-show').addClass('team-info-hide');
+
+          });
+
+        $(this).children(".overlay-team").removeClass('team-info-hide').addClass('team-info-show');  //show overlay on team member and social icons when clicked
+    });  
+
 });

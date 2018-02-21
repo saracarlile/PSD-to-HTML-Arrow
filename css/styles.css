@@ -941,6 +941,16 @@ hr.style-one {
 	background: -webkit-linear-gradient(top,  rgba(41,128,185, 0.6), rgba(41,128,185, 0.6),rgba(41,128,185, 0.6), rgba(41,128,185, 0.6)); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom, rgba(41,128,185, 0.6), rgba(41,128,185, 0.6),rgba(41,128,185, 0.6), rgba(41,128,185, 0.6)); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
+
+.team-info-hide {
+	display: none;
+}
+
+.team-info-show {
+	display: block;
+/*	background: linear-gradient(rgba(41,128,185, 0.6));*/
+	position: relative;
+}
   
   
 
