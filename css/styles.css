@@ -180,6 +180,8 @@ body {
 .navbar {
 	display: block;
 }
+
+
 .nav li {
 	display: inline-block;
 	font-family: 'Raleway-Thin';
@@ -988,3 +990,58 @@ hr.style-one {
 
 }
 
+@media only screen and (max-width: 780px) {
+
+	#dropbox  {
+		display: none;
+	}
+
+	/*   NAV BAR */
+
+	.navbar {
+		overflow: hidden;
+		position: absolute;
+		right: 30px;
+		top: 50px;
+		display: block;
+		z-index: 1000;
+	}
+
+	.burger-nav {
+		background: url('../img/hamburger.png') no-repeat center;
+		display: block;
+		height: 33px;
+		width: 40px;
+		cursor: pointer;
+		float: right;
+		margin-bottom: 10px;
+	}
+
+	.container nav ul {
+		height: 0;
+		overflow: hidden;
+		background: #282828;
+		border-radius: 5px;
+	}
+
+	.container nav ul.open {
+		height: auto;
+		clear: both;
+	}
+
+	.container nav ul li {
+		float: none;
+		text-align: right; 
+		width: auto;
+		display: block;
+		font-size: 18px;
+	}
+
+	.container nav ul li a {
+		color: white;
+		display: block;
+		padding: 5px 10px;
+	}
+
+
+}

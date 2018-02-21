@@ -81,4 +81,8 @@ $(document).ready(function () {
         $(this).children(".overlay-team").removeClass('team-info-hide').addClass('team-info-show');  //show overlay on team member and social icons when clicked
     });  
 
+    $('.burger-nav').on('click', function(){
+        $('.container nav ul').toggleClass('open');
+    });
+
 });
